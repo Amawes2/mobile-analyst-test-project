@@ -9,11 +9,11 @@ from utils.data_loader import charger_donnees, sidebar_filtres, formater_fcfa
 
 st.set_page_config(
     page_title="Mobile Money Analytics — Afrique de l'Ouest",
-    page_icon="📱",
+    page_icon="",
     layout="wide",
 )
 
-st.title("📱 Mobile Money Analytics — Afrique de l'Ouest")
+st.title(" Mobile Money Analytics — Afrique de l'Ouest")
 st.caption(
     "Dashboard d'analyse des transactions mobile money (Orange Money, MTN MoMo, Wave, Moov Money, Free Money) "
     "— données synthétiques à but de démonstration."
@@ -83,6 +83,6 @@ st.subheader("Aperçu des données filtrées")
 st.dataframe(df_f.head(200), use_container_width=True, height=300)
 
 st.info(
-    "👈 Utilise le menu de gauche pour naviguer vers les analyses détaillées : "
+    " Utilise le menu de gauche pour naviguer vers les analyses détaillées : "
     "comparatif des opérateurs, tendances temporelles et segmentation clients."
 )
